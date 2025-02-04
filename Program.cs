@@ -1,5 +1,7 @@
-using crudBack.Repository;
+
+
 using crudBack;
+using crudBack.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
