@@ -79,7 +79,7 @@
   },
   {
     "ContainingType": "crudBack.Controllers.AlunoController",
-    "Method": "getAlunos",
+    "Method": "GetAlunos",
     "RelativePath": "listar-aluno",
     "HttpMethod": "GET",
     "IsController": true,

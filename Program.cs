@@ -1,7 +1,6 @@
-
-
 using crudBack;
 using crudBack.Repository;
+using crudBack.outbound.service; // Add this namespace to access RabbitMQService
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +14,12 @@ builder.Services.AddSingleton<Configuration>();
 
 // Registrar o AlunoRepository no DI como Scoped
 builder.Services.AddScoped<AlunoRepository>();
+
+// Registrar o RedisService no DI
+builder.Services.AddSingleton<RedisService>(); // Assuming RedisService is a singleton or similar
+
+// Registrar o RabbitMQService no DI como Scoped
+builder.Services.AddScoped<RabbitMQService>(); // Add this line
 
 var app = builder.Build();
 

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crudBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d1e046a149e07b0b989a263bbf4e3560fba970")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fbd044bbc76b5d1fab8aa831e6bdf70d492bed8")]
 [assembly: System.Reflection.AssemblyProductAttribute("crudBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crudBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
